@@ -1,0 +1,30 @@
+{
+  "name": "deep-dive-redux-with-typescript-jest",
+  "version": "1.0.0",
+  "description": "Deep-Dive into Redux with TypeScript and Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "tsc && node .bin/index.js"
+  },
+  "jest": {
+    "preset": "ts-jest"
+  },
+  "keywords": [
+    "redux",
+    "typescript",
+    "jest"
+  ],
+  "author": "Camilo Reyes",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "24.0.12",
+    "@types/node": "12.0.0",
+    "jest": "24.8.0",
+    "ts-jest": "24.0.2",
+    "typescript": "3.4.5"
+  },
+  "dependencies": {
+    "redux": "4.0.1"
+  }
+}
